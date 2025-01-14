@@ -15,6 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "anvil-reproducer"
 include(":app")
-include(":utils")
-include(":feature-list")
 include(":my-processor")

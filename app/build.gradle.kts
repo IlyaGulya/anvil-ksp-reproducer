@@ -4,6 +4,11 @@ plugins {
     alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.ksp)
     alias(libs.plugins.anvil)
+    application
+}
+
+application {
+    mainClass = "com.example.myapplication.test.MainKt"
 }
 
 dependencies {

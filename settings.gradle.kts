@@ -13,12 +13,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "decompose-dagger-sample"
-
-include(":app-android")
-include(":repository")
+rootProject.name = "anvil-reproducer"
+include(":app")
 include(":utils")
-include(":feature-root")
 include(":feature-list")
-include(":feature-details")
 include(":my-processor")

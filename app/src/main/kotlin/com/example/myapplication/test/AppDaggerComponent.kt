@@ -1,6 +1,6 @@
-package com.example.myapplication.android
+package com.example.myapplication.test
 
-import com.example.myapplication.root.RootComponent
+import com.example.myapplication.list.ListComponent
 import com.example.myapplication.utils.AppScope
 import com.squareup.anvil.annotations.MergeComponent
 import com.squareup.anvil.annotations.optional.SingleIn
@@ -9,5 +9,5 @@ import com.squareup.anvil.annotations.optional.SingleIn
 @MergeComponent(AppScope::class)
 interface AppDaggerComponent {
 
-    val rootComponentFactory: RootComponent.Factory
+    val listComponentFactory: ListComponent.Factory
 }
